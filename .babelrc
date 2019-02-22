@@ -1,16 +1,10 @@
 {
   "presets": [
-    ["env", {
+    ["@babel/preset-env", {
       "targets": {
-        "browsers": ["last 2 versions", "safari >= 7"]
+        "browsers": ["last 2 versions"]
       }
-    }], "react", "stage-0"],
-  "env": {
-    "production": {
-      "plugins": ["emotion"]
-    }
-  },
-  "plugins": ["emotion"]
+    }], "@babel/preset-react"]
 
 }
 
